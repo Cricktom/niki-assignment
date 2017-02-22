@@ -23,7 +23,7 @@ int main()
     scanf("%d",&t);
     for(i=0;i<t;i++)
     {
-      scanf("%ld",&n);
+      scanf("%lld",&n);
       printf("%lld\n",countStrings(n+2));         //number of string without having consecutive zeroes of length n
     }
     return 0;
